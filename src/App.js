@@ -13,7 +13,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    axios.get('http://www.armandoprieto.me/test')
+    axios.get('https://portfolio-backend-prieto.herokuapp.com/test')
       .then(res => {
         this.setState({ 
                       name: res.data.userName,
