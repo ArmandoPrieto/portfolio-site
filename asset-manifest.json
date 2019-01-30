@@ -1,14 +1,14 @@
 {
-  "main.css": "/prieto.portfolio/static/css/main.1b69f60a.chunk.css",
-  "main.js": "/prieto.portfolio/static/js/main.4fff7e69.chunk.js",
-  "main.js.map": "/prieto.portfolio/static/js/main.4fff7e69.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/prieto.portfolio/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/prieto.portfolio/static/js/1.fa92c112.chunk.js.map",
-  "runtime~main.js": "/prieto.portfolio/static/js/runtime~main.44ebda03.js",
-  "runtime~main.js.map": "/prieto.portfolio/static/js/runtime~main.44ebda03.js.map",
-  "static/media/logo.svg": "/prieto.portfolio/static/media/logo.5d5d9eef.svg",
-  "static/css/main.1b69f60a.chunk.css.map": "/prieto.portfolio/static/css/main.1b69f60a.chunk.css.map",
-  "index.html": "/prieto.portfolio/index.html",
-  "precache-manifest.6b686e555940a1527b4f66a06cd5db3b.js": "/prieto.portfolio/precache-manifest.6b686e555940a1527b4f66a06cd5db3b.js",
-  "service-worker.js": "/prieto.portfolio/service-worker.js"
+  "main.css": "/portfolio-site/static/css/main.1b69f60a.chunk.css",
+  "main.js": "/portfolio-site/static/js/main.b5a66422.chunk.js",
+  "main.js.map": "/portfolio-site/static/js/main.b5a66422.chunk.js.map",
+  "static/js/1.fa92c112.chunk.js": "/portfolio-site/static/js/1.fa92c112.chunk.js",
+  "static/js/1.fa92c112.chunk.js.map": "/portfolio-site/static/js/1.fa92c112.chunk.js.map",
+  "runtime~main.js": "/portfolio-site/static/js/runtime~main.26e5d437.js",
+  "runtime~main.js.map": "/portfolio-site/static/js/runtime~main.26e5d437.js.map",
+  "static/media/logo.svg": "/portfolio-site/static/media/logo.5d5d9eef.svg",
+  "static/css/main.1b69f60a.chunk.css.map": "/portfolio-site/static/css/main.1b69f60a.chunk.css.map",
+  "index.html": "/portfolio-site/index.html",
+  "precache-manifest.5f23e59000b4256d23acb9f30446dd66.js": "/portfolio-site/precache-manifest.5f23e59000b4256d23acb9f30446dd66.js",
+  "service-worker.js": "/portfolio-site/service-worker.js"
 }

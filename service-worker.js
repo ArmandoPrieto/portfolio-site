@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prieto.portfolio/precache-manifest.6b686e555940a1527b4f66a06cd5db3b.js"
+  "/portfolio-site/precache-manifest.5f23e59000b4256d23acb9f30446dd66.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/prieto.portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/portfolio-site/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
