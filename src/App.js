@@ -3,13 +3,32 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      lastname: "",
+      age: 0,
+    };
+  }
+  componentDidMount() {
+    axios.get('http://www.armandoprieto.me/test')
+      .then(res => {
+        this.setState({ 
+                      name: res.data.userName,
+                      lastname: res.data.userLastName,
+                      age: res.data.age });
+      });
+
+  }
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h1>{this.state.name} {this.state.lastname}</h1>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload. 
           </p>
           <a
             className="App-link"
