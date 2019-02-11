@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+
 import axios from 'axios';
+
+import Navbar from "./components/navbar";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Education from "./components/education";
+import Awards from "./components/awards";
+import Skills from "./components/skills";
+import Interest from "./components/interest";
 
 class App extends Component {
   constructor(props) {
@@ -25,22 +35,35 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>{this.state.name} {this.state.lastname}</h1>
-          <p>
-            Edit <code>src/App.js</code> and save to reload. 
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+
+       <Navbar />
+
+        <div class="container-fluid p-0">
+
+            <About />
+            <hr class="m-0"/>
+
+            <Experience />
+            <hr class="m-0"/>
+
+            <Education />
+
+          <hr class="m-0"/>
+
+            <Skills />
+
+          <hr class="m-0"/>
+
+            <Interest />
+
+          <hr class="m-0"/>
+
+            <Awards />
+        
+        </div>
+            
+        </div>
+      
     );
   }
 }
