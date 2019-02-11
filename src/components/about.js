@@ -23,19 +23,20 @@ class About extends React.Component {
                 <a href="mailto:name@email.com"> {this.state.email}</a>
               </div>
               <p class="lead mb-5">{this.state.description}</p>
+             
               <div class="social-icons">
-                <a href="#">
+                
+                <a href="http://www.linkedin.com/in/armandoprieto">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#">
+                <a href="https://github.com/ArmandoPrieto">
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/armandoprieto">
                   <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
+                
+                <button type="button" class="btn btn-outline-info">Download Resume</button>
               </div>
             </div>
           </section>

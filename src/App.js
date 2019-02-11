@@ -39,10 +39,10 @@ class App extends Component {
        <Navbar />
 
         <div class="container-fluid p-0">
-
+       
             <About />
             <hr class="m-0"/>
-
+          {/*
             <Experience />
             <hr class="m-0"/>
 
@@ -59,7 +59,7 @@ class App extends Component {
           <hr class="m-0"/>
 
             <Awards />
-        
+          */}
         </div>
             
         </div>
