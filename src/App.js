@@ -42,24 +42,21 @@ class App extends Component {
        
             <About />
             <hr class="m-0"/>
-          {/*
+          
             <Experience />
             <hr class="m-0"/>
 
             <Education />
-
-          <hr class="m-0"/>
-
+            <hr class="m-0"/>
+            {/*
             <Skills />
-
-          <hr class="m-0"/>
+            <hr class="m-0"/>
 
             <Interest />
-
-          <hr class="m-0"/>
+            <hr class="m-0"/>
 
             <Awards />
-          */}
+            */}
         </div>
             
         </div>

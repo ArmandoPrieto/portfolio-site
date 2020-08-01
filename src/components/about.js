@@ -7,8 +7,8 @@ class About extends React.Component {
       name: "Armando",
       lastname: "Prieto",
       email: "prieto.arm at gmail.com",
-      address: "920 S. Soto St. Los Angeles, CA 90023",
-      description: "I am a software developer",
+      address: "Planet Earth",
+      description: "Software developer",
     };
    
   }

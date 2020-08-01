@@ -24,7 +24,7 @@ class Navbar extends React.Component {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               {/*
+              
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -35,6 +35,7 @@ class Navbar extends React.Component {
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#education">Education</a>
                 </li>
+                {/*
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
                 </li>
@@ -44,8 +45,9 @@ class Navbar extends React.Component {
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
                 </li>
-              </ul>
                 */}
+              </ul>
+              
             </div>  
           </nav>
 
