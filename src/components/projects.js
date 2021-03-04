@@ -26,11 +26,11 @@ class Projects extends React.Component {
 
               <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
-                  <h3 class="mb-0">P2: Clock canvas</h3>
+                  <h3 class="mb-0">P2: Digital clock</h3>
                   <div>
                     <p>The Clock is made with jCanvas. jCanvas is a jQuery plugin that makes the HTML5 canvas easy to work with.
                     The lighting effect is a transformation over the color background and it's pretty good looking.</p>
-                    <p>Check it out, <a href="https://armandoprieto.github.io/react/">here</a></p>
+                    <p>Check it out, <a href="https://armandoprieto.github.io/digitalClock/">here</a></p>
                   </div>
                 </div>
                 <div class="resume-date text-md-right">
