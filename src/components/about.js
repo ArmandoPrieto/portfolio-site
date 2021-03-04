@@ -4,11 +4,11 @@ class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Armando",
+      name: "A.",
       lastname: "Prieto",
       email: "prieto.arm at gmail.com",
       address: "Planet Earth",
-      description: "Software developer",
+      description: "Software Engineer",
     };
    
   }
@@ -36,7 +36,7 @@ class About extends React.Component {
                   <i class="fab fa-twitter"></i>
                 </a>
                 
-                <button type="button" class="btn btn-outline-info">Download Resume</button>
+                
               </div>
             </div>
           </section>

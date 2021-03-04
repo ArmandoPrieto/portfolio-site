@@ -7,11 +7,7 @@ import axios from 'axios';
 
 import Navbar from "./components/navbar";
 import About from "./components/about";
-import Experience from "./components/experience";
-import Education from "./components/education";
-import Awards from "./components/awards";
-import Skills from "./components/skills";
-import Interest from "./components/interest";
+import Projects from "./components/projects";
 
 class App extends Component {
   constructor(props) {
@@ -43,20 +39,9 @@ class App extends Component {
             <About />
             <hr class="m-0"/>
           
-            <Experience />
+            <Projects />
             <hr class="m-0"/>
-
-            <Education />
-            <hr class="m-0"/>
-            {/*
-            <Skills />
-            <hr class="m-0"/>
-
-            <Interest />
-            <hr class="m-0"/>
-
-            <Awards />
-            */}
+          
         </div>
             
         </div>
